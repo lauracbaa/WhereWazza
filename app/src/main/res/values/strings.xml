@@ -1,0 +1,11 @@
+<resources>
+        <string name="app_name">Where was I?</string>
+        <string name="action_settings">Settings</string>
+        <string name="add_to_favourites">Add to Favourites</string>
+        <string name="go_to_favourites">Go to Favourites</string>
+        <string name="backdrop_title"></string>
+        <string name="backdrop_subtitle">This season\'s top Shows</string>
+        <string name="remove_from_favourites">Remove from favourites</string>
+        <string name="go_back_to_popular_selections">Go back to Popular Selections</string>
+</resources>
+

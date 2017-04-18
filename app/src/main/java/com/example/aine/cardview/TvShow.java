@@ -27,9 +27,26 @@ public class TvShow {
     private String posterPath;
     private List<Season> seasons;
 
+    public TvShow(){
+
+    }
+
+    public TvShow (int id, String name, double popularity, String overview, String posterPath, String backdropPath  ) {
+        this.id=id;
+        this.name=name;
+        this.popularity=popularity;
+        this.overview=overview;
+        this.posterPath=posterPath;
+        this.backdropPath=backdropPath;
+    }
+
     // Aine - Added this accessor method because of the change below
     public String getIMG_POSTER_BASE_URL() {
         return IMG_POSTER_BASE_URL;
+    }
+
+    public String getIMG_BACKDROP_BASE_URL() {
+        return IMG_BACKDROP_BASE_URL;
     }
 
     public static class Season{
@@ -93,7 +110,7 @@ public class TvShow {
     }
 
     public void setBackdropPath(String backdropPath) {
-        this.backdropPath = IMG_BACKDROP_BASE_URL+backdropPath;
+        this.backdropPath = backdropPath;
     }
 
     public int[] getEpRuntime() {

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Cardview.iml" filepath="$PROJECT_DIR$/Cardview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WhereWazza.iml" filepath="$PROJECT_DIR$/WhereWazza.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

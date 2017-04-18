@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -16,8 +15,6 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 
@@ -25,7 +22,6 @@ public class TvShowFavAdapter extends RecyclerView.Adapter<TvShowFavAdapter.MyVi
 
     private Context mContext;
     private List<TvShow> TvShowList;
-    private List<TvShowFavourites> TvShowFavouritesList;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView tvShowTitle,tvShowPopularity, tvShowOverview;
@@ -63,7 +59,7 @@ public class TvShowFavAdapter extends RecyclerView.Adapter<TvShowFavAdapter.MyVi
         holder.tvShowOverview.setText(tvshow.getOverview());
 
         // loading TV show poster  using Glide library
-        Glide.with(mContext).load(tvshow.getPosterPath()).into(holder.thumbnail);
+        Glide.with(mContext).load(tvshow.getBackdropPath()).into(holder.thumbnail);
 
         holder.overflow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -106,10 +102,11 @@ public class TvShowFavAdapter extends RecyclerView.Adapter<TvShowFavAdapter.MyVi
                         Toast.makeText(mContext, "Remove from Favourites", Toast.LENGTH_SHORT).show();
                         // Write the favourite to the database so it can be retrieved later
                         SQLiteDatabaseHandler db = SQLiteDatabaseHandler.getInstance(mContext);
-                        TvShowFavourites fav = new TvShowFavourites();
-                        fav.setID(TvShowList.get(position).getId());
-                        fav.setTitle(TvShowList.get(position).getName());
+                        TvShow fav = new TvShow();
+                        fav.setId(TvShowList.get(position).getId());
+                        fav.setName(TvShowList.get(position).getName());
                         fav.setPosterPath(TvShowList.get(position).getPosterPath());
+                        fav.setBackdropPath(TvShowList.get(position).getBackdropPath());
                         fav.setOverview(TvShowList.get(position).getOverview());
                         fav.setPopularity(TvShowList.get(position).getPopularity());
                         db.deleteTvShowFavourites(fav);
@@ -121,7 +118,7 @@ public class TvShowFavAdapter extends RecyclerView.Adapter<TvShowFavAdapter.MyVi
                     return true;
                 case R.id.go_back:
                     Toast.makeText(mContext, "Go back", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(mContext,MainActivity.class);
+                    Intent intent = new Intent(mContext,PopularActivity.class);
                     mContext.startActivity(intent);
                     return true;
                 default:

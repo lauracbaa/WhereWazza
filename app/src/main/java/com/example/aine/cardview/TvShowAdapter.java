@@ -28,7 +28,6 @@ public class TvShowAdapter extends RecyclerView.Adapter<TvShowAdapter.MyViewHold
     private Context mContext;
     private List<TvShow> TvShowList;
     private List<TvShow> TvShowListfav;
-    private List<TvShowFavourites> TvShowFavouritesList;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView tvShowTitle,tvShowPopularity, tvShowOverview;
@@ -66,7 +65,7 @@ public class TvShowAdapter extends RecyclerView.Adapter<TvShowAdapter.MyViewHold
         holder.tvShowOverview.setText(tvshow.getOverview());
 
         // loading TV show poster  using Glide library
-        Glide.with(mContext).load(tvshow.getPosterPath()).into(holder.thumbnail);
+        Glide.with(mContext).load(tvshow.getBackdropPath()).into(holder.thumbnail);
 
         holder.overflow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -108,10 +107,11 @@ public class TvShowAdapter extends RecyclerView.Adapter<TvShowAdapter.MyViewHold
                     Toast.makeText(mContext, "Add to Favourites", Toast.LENGTH_SHORT).show();
                     // Write the favourite to the database so it can be retrieved later
                     SQLiteDatabaseHandler db = SQLiteDatabaseHandler.getInstance(mContext);
-                    TvShowFavourites fav = new TvShowFavourites();
-                    fav.setID(TvShowList.get(position).getId());
-                    fav.setTitle(TvShowList.get(position).getName());
+                    TvShow fav = new TvShow();
+                    fav.setId(TvShowList.get(position).getId());
+                    fav.setName(TvShowList.get(position).getName());
                     fav.setPosterPath(TvShowList.get(position).getPosterPath());
+                    fav.setBackdropPath(TvShowList.get(position).getBackdropPath());
                     fav.setOverview(TvShowList.get(position).getOverview());
                     fav.setPopularity(TvShowList.get(position).getPopularity());
                     db.addTvShowFavourites(fav);

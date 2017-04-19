@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Mark O'Hare\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_dots.png",
-        "source": "C:\\Users\\Mark O'Hare\\AndroidStudioProjects\\WhereWazza\\app\\src\\main\\res\\drawable-hdpi\\ic_dots.png"
-    },
-    {
         "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_dots.png",
         "source": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\src\\main\\res\\drawable-hdpi\\ic_dots.png"
     }

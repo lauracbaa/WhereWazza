@@ -37,6 +37,7 @@
         <activity android:name="com.example.aine.cardview.Login" />
         <activity android:name="com.example.aine.cardview.Register" />
         <activity android:name="com.example.aine.cardview.Loading" />
+        <activity android:name="com.example.aine.cardview.mainTabbed" />
     </application>
 
 </manifest>

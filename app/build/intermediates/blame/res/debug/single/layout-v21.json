@@ -4,18 +4,6 @@
         "source": "C:\\Users\\Laura\\.android\\build-cache\\5e4afcd28ab0afd6be5f18d606d89334008c309b\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\Mark O'Hare\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Mark O'Hare\\.android\\build-cache\\50240064c7a83ac2c81b7bfce43f9ebbf067b13f\\output\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mark O'Hare\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Mark O'Hare\\.android\\build-cache\\50240064c7a83ac2c81b7bfce43f9ebbf067b13f\\output\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mark O'Hare\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Mark O'Hare\\.android\\build-cache\\50240064c7a83ac2c81b7bfce43f9ebbf067b13f\\output\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
         "source": "C:\\Users\\Laura\\.android\\build-cache\\5e4afcd28ab0afd6be5f18d606d89334008c309b\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
@@ -26,9 +14,5 @@
     {
         "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
         "source": "C:\\Users\\Laura\\.android\\build-cache\\5e4afcd28ab0afd6be5f18d606d89334008c309b\\output\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mark O'Hare\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Mark O'Hare\\.android\\build-cache\\50240064c7a83ac2c81b7bfce43f9ebbf067b13f\\output\\res\\layout-v21\\notification_action.xml"
     }
 ]

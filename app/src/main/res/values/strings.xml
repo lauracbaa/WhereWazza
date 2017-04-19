@@ -7,5 +7,9 @@
     <string name="backdrop_subtitle">This season\'s top Shows</string>
     <string name="remove_from_favourites">Remove from favourites</string>
     <string name="go_back_to_popular_selections">Go back to Popular Selections</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_main_tabbed">mainTabbed</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
 

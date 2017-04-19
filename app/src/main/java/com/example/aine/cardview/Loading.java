@@ -21,7 +21,7 @@ public class Loading extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
-                    Intent popIntent = new Intent(Loading.this, PopularActivity.class); // opens the Popularactivity page
+                    Intent popIntent = new Intent(Loading.this, mainTabbed.class); // opens the Popularactivity page
                     popIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
                     Loading.this.startActivity(popIntent);
                 }

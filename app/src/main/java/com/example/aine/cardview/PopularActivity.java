@@ -154,6 +154,8 @@ public class PopularActivity extends AppCompatActivity {
         }
     }
 
+
+
     /**
      * Converting dp to pixel
      */

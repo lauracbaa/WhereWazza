@@ -8,7 +8,7 @@
     <dimen name="backdrop_subtitle">18dp</dimen>
     <dimen name="card_margin">5dp</dimen>
     <dimen name="card_album_radius">0dp</dimen>
-    <dimen name="tvshow_cover_height">220dp</dimen>
+    <dimen name="tvshow_cover_height">200dp</dimen>
     <dimen name="tvshow_title_padding">10dp</dimen>
     <dimen name="tvshow_title">15dp</dimen>
     <dimen name="tvshowoverview_padding_bottom">5dp</dimen>

@@ -39,6 +39,7 @@ public class FavouriteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_popular);
+
         tvShowList = new ArrayList<>();
         loadFavouritesFromDB();
         adapter = new TvShowFavAdapter(this, tvShowList);

@@ -8,4 +8,5 @@
     <color name="colorBackground">#87cefa</color>
     <color name="colorText">#fffafa</color>
     <color name="colorTextHint">#87cefa</color>
+    <color name="black_alpha_40">#66000000</color>
 </resources>

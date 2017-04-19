@@ -14,7 +14,7 @@ public class FavoriteTabbed extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.popular_main, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_favorite, container, false);
 
         return rootView;
     }

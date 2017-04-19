@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             logout(); // log out method run
         }
         else{
-            Intent intent = new Intent(context, PopularActivity.class);
+            Intent intent = new Intent(context, MainActivityTabbed.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
             context.startActivity(intent);
         }

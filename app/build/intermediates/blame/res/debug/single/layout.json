@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_popular.xml",
+        "source": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\src\\main\\res\\layout\\fragment_popular.xml"
+    },
+    {
         "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\Laura\\.android\\build-cache\\fe6de7586c327918b75b0164646e28901faaf467\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
@@ -38,10 +42,6 @@
     {
         "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\Laura\\.android\\build-cache\\5e4afcd28ab0afd6be5f18d606d89334008c309b\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popular_main.xml",
-        "source": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\src\\main\\res\\layout\\popular_main.xml"
     },
     {
         "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
@@ -224,11 +224,19 @@
         "source": "C:\\Users\\Laura\\.android\\build-cache\\5e4afcd28ab0afd6be5f18d606d89334008c309b\\output\\res\\layout\\abc_search_view.xml"
     },
     {
+        "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search.xml",
+        "source": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
         "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
         "source": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
         "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\Laura\\.android\\build-cache\\5e4afcd28ab0afd6be5f18d606d89334008c309b\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_favorite.xml",
+        "source": "C:\\Users\\Laura\\AndroidStudioProjects\\WhereWazza\\app\\src\\main\\res\\layout\\fragment_favorite.xml"
     }
 ]

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:8:5-31:19
+ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:8:5-32:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\Laura\.android\build-cache\fe6de7586c327918b75b0164646e28901faaf467\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Laura\.android\build-cache\5e4afcd28ab0afd6be5f18d606d89334008c309b\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Laura\.android\build-cache\1324fa7d4dd5cda27aa5bed6230869532d632277\output\AndroidManifest.xml:26:5-20
@@ -85,10 +85,10 @@ activity#com.example.aine.cardview.Loading
 ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:29:9-45
 	android:name
 		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:29:19-42
-activity#com.example.aine.cardview.mainTabbed
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:30:9-48
+activity#com.example.aine.cardview.MainActivityTabbed
+ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:30:9-55
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:30:19-45
+		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:30:19-53
 uses-sdk
 INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\Laura\.android\build-cache\fe6de7586c327918b75b0164646e28901faaf467\output\AndroidManifest.xml:21:5-23:62

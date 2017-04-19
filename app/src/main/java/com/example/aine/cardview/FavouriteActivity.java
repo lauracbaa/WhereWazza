@@ -38,7 +38,7 @@ public class FavouriteActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.popular_main);
+        setContentView(R.layout.fragment_popular);
         tvShowList = new ArrayList<>();
         loadFavouritesFromDB();
         adapter = new TvShowFavAdapter(this, tvShowList);
@@ -54,15 +54,7 @@ public class FavouriteActivity extends AppCompatActivity {
         //  displayImage(...) call if no options will be passed to this method
         DisplayImageOptions defaultOptions = new DisplayImageOptions.Builder().cacheInMemory(true).cacheOnDisk(true).build();
 
-        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext()).defaultDisplayImageOptions(defaultOptions).build();
 
-        ImageLoader.getInstance().init(config); // Do it on Application start
-        try {
-            // Draw the image at the top of the screen first
-            Glide.with(this).load(R.drawable.tvcover).into((ImageView) findViewById(R.id.backdrop));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
 
 
     }

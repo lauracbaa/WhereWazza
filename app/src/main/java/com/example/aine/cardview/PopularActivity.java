@@ -1,6 +1,5 @@
 package com.example.aine.cardview;
 
-
         import android.content.res.Resources;
         import android.graphics.Rect;
         import android.os.Bundle;
@@ -56,12 +55,10 @@ public class PopularActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.popular_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
+        setContentView(R.layout.fragment_popular);
+       // Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        // setSupportActionBar(toolbar);
 
-
-        initCollapsingToolbar();
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         tvShowList = new ArrayList<>();
         // Set up adapter to the RecycleView
@@ -71,8 +68,6 @@ public class PopularActivity extends AppCompatActivity {
         recyclerView.addItemDecoration(new GridSpacingItemDecoration(2, dpToPx(10), true));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(adapter);
-
-
 
         // Create default options which will be used for every
         //  displayImage(...) call if no options will be passed to this method
@@ -87,7 +82,6 @@ public class PopularActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
 
         new PopularShows(new PopularShows.AsyncResponse() {
             @Override
@@ -111,7 +105,6 @@ public class PopularActivity extends AppCompatActivity {
         }).execute(REQUEST_POPULAR);
 
     }
-
     /**
      * Initializing the TV show in the List array from the JSON feed for the moviedb
      * api call
@@ -134,45 +127,6 @@ public class PopularActivity extends AppCompatActivity {
         tvShowList.add(tvShow);
 
     }
-
-
-
-    /**
-     * Initializing collapsing toolbar
-     * Will show and hide the toolbar title on scroll
-     */
-    private void initCollapsingToolbar() {
-        final CollapsingToolbarLayout collapsingToolbar =
-                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setTitle(" ");
-        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
-        appBarLayout.setExpanded(true);
-
-        // hiding & showing the title when toolbar expanded & collapsed
-        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
-            boolean isShow = false;
-            int scrollRange = -1;
-
-            @Override
-            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-                if (scrollRange == -1) {
-                    scrollRange = appBarLayout.getTotalScrollRange();
-                }
-                if (scrollRange + verticalOffset == 0) {
-     //               collapsingToolbar.setTitle(getString(R.string.app_name));
-                    isShow = true;
-                } else if (isShow) {
-                    collapsingToolbar.setTitle(" ");
-                    isShow = false;
-                }
-            }
-        });
-    }
-
-
-    /**
-     * RecyclerView item decoration - give equal margin around grid item
-     */
     public class GridSpacingItemDecoration extends RecyclerView.ItemDecoration {
 
         private int spanCount;

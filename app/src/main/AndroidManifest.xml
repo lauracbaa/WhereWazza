@@ -27,7 +27,8 @@
         <activity android:name=".Login" />
         <activity android:name=".Register" />
         <activity android:name=".Loading" />
-        <activity android:name=".mainTabbed" />
+        <activity android:name=".MainActivityTabbed"/>
+
     </application>
 
 </manifest>

@@ -19,11 +19,9 @@ import com.example.aine.cardview.PopularActivity;
 
 public class PopularTabbed extends Fragment {
 
-
-
-
     public PopularTabbed(){
 
+        //just accept this needs to be here; dont delete
     }
 
     @Override
@@ -52,5 +50,6 @@ public class PopularTabbed extends Fragment {
 
 
     }
+
 
 }

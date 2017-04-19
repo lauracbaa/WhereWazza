@@ -1,135 +1,135 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:3:5-40
-		INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:6:5-81
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:8:5-32:19
-MERGED from [com.android.support:design:25.3.1] C:\Users\Laura\.android\build-cache\fe6de7586c327918b75b0164646e28901faaf467\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Laura\.android\build-cache\5e4afcd28ab0afd6be5f18d606d89334008c309b\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Laura\.android\build-cache\1324fa7d4dd5cda27aa5bed6230869532d632277\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Laura\.android\build-cache\b0c31ba59d8f7b86de8bfd6d479c89d93aab4dee\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Laura\.android\build-cache\eed6c79e773087901f6031ea03645e61096532fc\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Laura\.android\build-cache\0251bb17960020b5b06fb70ba7cbc9f3bb63e56b\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Laura\.android\build-cache\6322ef48c7d189f0a52e4242d8a3b021c2c2f6b0\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v13:25.3.1] C:\Users\Laura\.android\build-cache\34c13775197133e165453a370309484ad2b8bb00\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Laura\.android\build-cache\b3dd5bcd33052a1dfa65f9029eebb4fe53d67f55\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Laura\.android\build-cache\bf7f2433c34e999170ad4ccd762a08a8dce408c8\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Laura\.android\build-cache\f22d8a21d4318a3a74291e92044139f9973d5f39\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Laura\.android\build-cache\d5bc7ad58cfe65ecc8fb9181b1b978a91bd89a50\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Laura\.android\build-cache\170e5680336487020bc981e71fde6a3d069fcb2d\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Laura\.android\build-cache\a47fcb0da1edee67e91248e43f1fa5fc577f1951\output\AndroidManifest.xml:29:5-20
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:8:5-32:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\9615c7c14058bcc76643bb36ca681cad3cee3bf6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\50240064c7a83ac2c81b7bfce43f9ebbf067b13f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\15b5e3d37b49fa4841d002d187c3fd60cd5d68f6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\1978df9d05e7005e3f010db929aa91c1191465fb\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\29bea2bb1695bc38d80cbb803ddc66487de1a484\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\4360b0d592fe86c1f77c7bbd1f9759998258e0fa\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Mark O'Hare\.android\build-cache\c0553e46fe91814748b45035cf5118a542ab0930\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v13:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\aee7d50e067ef51ec3f6632f99a961fc4bcca76a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\ee5c6dc59f803d349c83c0285a4a2bff4a07b1bd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\a8b5606a891a39aa26a9e9df2c9b736b3b80d413\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\438bb436377f0f7c1459eab957255b6ee80836d2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\7ab3d8992460487ec9a94782dfdbb50748b7ba17\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\6fef6adb0c36af3bb8359a7e640f802e7ab207fe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\772a8b06b043f1bd04638996233001417da229c6\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:12:9-35
 	android:allowBackup
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.example.aine.cardview.MainActivity
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:14:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.example.aine.cardview.PopularActivity
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:21:9-23:54
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:21:9-23:54
 	android:label
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:23:13-51
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:23:13-51
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:22:13-44
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:22:13-44
 activity#com.example.aine.cardview.FavouriteActivity
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:24:9-26:57
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:24:9-26:57
 	android:label
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:26:13-54
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:26:13-54
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:25:13-46
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:25:13-46
 activity#com.example.aine.cardview.Login
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:27:9-43
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:27:9-43
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:27:19-40
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:27:19-40
 activity#com.example.aine.cardview.Register
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:28:9-46
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:28:9-46
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:28:19-43
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:28:19-43
 activity#com.example.aine.cardview.Loading
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:29:9-45
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:29:9-45
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:29:19-42
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:29:19-42
 activity#com.example.aine.cardview.MainActivityTabbed
-ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:30:9-55
+ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:30:9-55
 	android:name
-		ADDED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml:30:19-53
+		ADDED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml:30:19-53
 uses-sdk
-INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.1] C:\Users\Laura\.android\build-cache\fe6de7586c327918b75b0164646e28901faaf467\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Laura\.android\build-cache\5e4afcd28ab0afd6be5f18d606d89334008c309b\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Laura\.android\build-cache\1324fa7d4dd5cda27aa5bed6230869532d632277\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Laura\.android\build-cache\b0c31ba59d8f7b86de8bfd6d479c89d93aab4dee\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Laura\.android\build-cache\eed6c79e773087901f6031ea03645e61096532fc\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Laura\.android\build-cache\036798cd872671bdfabc0f1e1201ddc164eeea31\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Laura\.android\build-cache\0251bb17960020b5b06fb70ba7cbc9f3bb63e56b\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Laura\.android\build-cache\6322ef48c7d189f0a52e4242d8a3b021c2c2f6b0\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v13:25.3.1] C:\Users\Laura\.android\build-cache\34c13775197133e165453a370309484ad2b8bb00\output\AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Laura\.android\build-cache\b3dd5bcd33052a1dfa65f9029eebb4fe53d67f55\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Laura\.android\build-cache\bf7f2433c34e999170ad4ccd762a08a8dce408c8\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Laura\.android\build-cache\f22d8a21d4318a3a74291e92044139f9973d5f39\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Laura\.android\build-cache\d5bc7ad58cfe65ecc8fb9181b1b978a91bd89a50\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Laura\.android\build-cache\170e5680336487020bc981e71fde6a3d069fcb2d\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Laura\.android\build-cache\a47fcb0da1edee67e91248e43f1fa5fc577f1951\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\9615c7c14058bcc76643bb36ca681cad3cee3bf6\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\50240064c7a83ac2c81b7bfce43f9ebbf067b13f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\15b5e3d37b49fa4841d002d187c3fd60cd5d68f6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\1978df9d05e7005e3f010db929aa91c1191465fb\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\29bea2bb1695bc38d80cbb803ddc66487de1a484\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\522a868c39ad8367d9d2c09bd10f9d299f53b043\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\4360b0d592fe86c1f77c7bbd1f9759998258e0fa\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Mark O'Hare\.android\build-cache\c0553e46fe91814748b45035cf5118a542ab0930\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v13:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\aee7d50e067ef51ec3f6632f99a961fc4bcca76a\output\AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\ee5c6dc59f803d349c83c0285a4a2bff4a07b1bd\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\a8b5606a891a39aa26a9e9df2c9b736b3b80d413\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\438bb436377f0f7c1459eab957255b6ee80836d2\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\7ab3d8992460487ec9a94782dfdbb50748b7ba17\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\6fef6adb0c36af3bb8359a7e640f802e7ab207fe\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\772a8b06b043f1bd04638996233001417da229c6\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Laura\.android\build-cache\fe6de7586c327918b75b0164646e28901faaf467\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\9615c7c14058bcc76643bb36ca681cad3cee3bf6\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Laura\AndroidStudioProjects\WhereWazza\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mark O'Hare\AndroidStudioProjects\Lauras stuff\WhereWazza\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\Laura\.android\build-cache\fe6de7586c327918b75b0164646e28901faaf467\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Laura\.android\build-cache\5e4afcd28ab0afd6be5f18d606d89334008c309b\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Laura\.android\build-cache\1324fa7d4dd5cda27aa5bed6230869532d632277\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Laura\.android\build-cache\b0c31ba59d8f7b86de8bfd6d479c89d93aab4dee\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Laura\.android\build-cache\eed6c79e773087901f6031ea03645e61096532fc\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Laura\.android\build-cache\036798cd872671bdfabc0f1e1201ddc164eeea31\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Laura\.android\build-cache\0251bb17960020b5b06fb70ba7cbc9f3bb63e56b\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v13:25.3.1] C:\Users\Laura\.android\build-cache\34c13775197133e165453a370309484ad2b8bb00\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Laura\.android\build-cache\b3dd5bcd33052a1dfa65f9029eebb4fe53d67f55\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Laura\.android\build-cache\bf7f2433c34e999170ad4ccd762a08a8dce408c8\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Laura\.android\build-cache\f22d8a21d4318a3a74291e92044139f9973d5f39\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Laura\.android\build-cache\d5bc7ad58cfe65ecc8fb9181b1b978a91bd89a50\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Laura\.android\build-cache\170e5680336487020bc981e71fde6a3d069fcb2d\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Laura\.android\build-cache\a47fcb0da1edee67e91248e43f1fa5fc577f1951\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\9615c7c14058bcc76643bb36ca681cad3cee3bf6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\50240064c7a83ac2c81b7bfce43f9ebbf067b13f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\15b5e3d37b49fa4841d002d187c3fd60cd5d68f6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\1978df9d05e7005e3f010db929aa91c1191465fb\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\29bea2bb1695bc38d80cbb803ddc66487de1a484\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\522a868c39ad8367d9d2c09bd10f9d299f53b043\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\4360b0d592fe86c1f77c7bbd1f9759998258e0fa\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v13:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\aee7d50e067ef51ec3f6632f99a961fc4bcca76a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\ee5c6dc59f803d349c83c0285a4a2bff4a07b1bd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\a8b5606a891a39aa26a9e9df2c9b736b3b80d413\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\438bb436377f0f7c1459eab957255b6ee80836d2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\7ab3d8992460487ec9a94782dfdbb50748b7ba17\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\6fef6adb0c36af3bb8359a7e640f802e7ab207fe\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\772a8b06b043f1bd04638996233001417da229c6\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Laura\.android\build-cache\fe6de7586c327918b75b0164646e28901faaf467\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\9615c7c14058bcc76643bb36ca681cad3cee3bf6\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Laura\.android\build-cache\fe6de7586c327918b75b0164646e28901faaf467\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Mark O'Hare\.android\build-cache\9615c7c14058bcc76643bb36ca681cad3cee3bf6\output\AndroidManifest.xml:26:9-47

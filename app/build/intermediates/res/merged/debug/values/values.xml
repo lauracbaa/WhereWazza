@@ -108,6 +108,7 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="black_alpha_40">#66000000</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -644,7 +645,7 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
-    <dimen name="tvshow_cover_height">220dp</dimen>
+    <dimen name="tvshow_cover_height">200dp</dimen>
     <dimen name="tvshow_title">15dp</dimen>
     <dimen name="tvshow_title_padding">10dp</dimen>
     <dimen name="tvshowoverview">12dp</dimen>

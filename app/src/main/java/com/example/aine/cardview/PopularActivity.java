@@ -59,15 +59,7 @@ public class PopularActivity extends AppCompatActivity {
        // Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         // setSupportActionBar(toolbar);
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        tvShowList = new ArrayList<>();
-        // Set up adapter to the RecycleView
-        adapter = new TvShowAdapter(this, tvShowList);
-        RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 1);
-        recyclerView.setLayoutManager(mLayoutManager);
-        recyclerView.addItemDecoration(new GridSpacingItemDecoration(2, dpToPx(10), true));
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setAdapter(adapter);
+
 
         // Create default options which will be used for every
         //  displayImage(...) call if no options will be passed to this method
